@@ -1,0 +1,11 @@
+int x = Integer.parseInt(jTextField1.getText());
+        int y = Integer.parseInt(jTextField2.getText());
+        int z = Integer.parseInt(jTextField3.getText());
+        int a = Integer.parseInt(jTextField4.getText());
+        
+        int sum;
+        sum = x + y + z +a;
+        double gg;
+       gg = sum / 4;
+        
+        jTextField5.setText("The Average is:" + String.valueOf(gg));
